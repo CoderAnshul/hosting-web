@@ -99,8 +99,9 @@ const data = [
 ];
 
 const Navbar = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(null); // Track which dropdown is open
-  const [megaMenuOpen, setMegaMenuOpen] = useState(null); // Track which mega menu is open
+  const [dropdownOpen, setDropdownOpen] = useState(null);
+  const [megaMenuOpen, setMegaMenuOpen] = useState(null);
+  const [menuOpen, setMenuOpen] = useState(false); // New state for menu open
   const dropdownRef = useRef(null);
   const megaMenuRef = useRef(null);
   
@@ -155,13 +156,16 @@ const Navbar = () => {
       megaMenu.classList.toggle('open-mega-menu');
     }
   };
-  
+
+  const handleMenuIconClick = () => {
+    setMenuOpen(prevState => !prevState); // Toggle menu open state
+  };
 
   return (
     <nav class="theme-navbar" id="theme-navbar" data-responsive="true">
       <div class="container-fluid">
         <div class="nav-top d-flex align-items-center">
-          <div class="menu-icon" id="open-links-btn">
+          <div class="menu-icon" id="open-links-btn" onClick={handleMenuIconClick}>
             <img src={menu} class="menu-icon img-fluid" alt="Menu" />
           </div>
           <a href="/" class="brand d-flex align-items-center">
@@ -174,7 +178,7 @@ const Navbar = () => {
             </a>
             <div class="buttons d-inline-flex align-items-center">
               <a href="/register" class="theme-btn --fill-primary --btn-size-md text-uppercase mr--sm-2">Free Trial</a>
-              <a href="/login" class="theme-btn --outline-primary --btn-size-md text-uppercase mr--sm-2">Login</a>
+              <a href="/login" class="theme-btn --outline-primary --btn-size-md text-uppercase mr--sm-2">Login </a>
               <a href="#" class="theme-btn --fill-primary --circle-btn --has-icon --has-counter" data-count="2">
                 <img src={shoppingCart} class="img-fluid" alt="Cart" />
               </a>
@@ -186,7 +190,7 @@ const Navbar = () => {
             </a>
             <div class="o-link user-link d-flex align-items-center justify-content-center ml-1" id="user-menu-btn">
               <img src={account} class="icon img-fluid" alt="Account" />
-              <ul class="user-dropdown-menu list-unstyled" id="user -dropdown-menu">
+              <ul class="user-dropdown-menu list-unstyled" id="user-dropdown-menu">
                 <li class="uddm-link-parent">
                   <div class="title-2">Registered Users</div>
                   <p class="para-2">Have an account? Sign in now.</p>
@@ -212,8 +216,8 @@ const Navbar = () => {
               <span class="text">(20) 123 456 7890</span>
             </a>
           </div>
-          <div class="links d-xl-flex align-items-center " id="theme-navbar-links">
-            <div class="close-links-btn" id="close-links-btn">
+          <div class={`links d-xl-flex align-items-center mobileMenu ${menuOpen ? 'open-links' : ''}`} id="theme-navbar-links">
+            <div class="close-links-btn" id="close-links-btn" onClick={() => setMenuOpen(false)}>
               <img src={close} class="img-fluid" alt="x" />
             </div>
             <div class="link grad1">
@@ -235,30 +239,30 @@ const Navbar = () => {
             <div class="link has-mega-menu" ref={megaMenuRef} onClick={handleProductsClick}>
               <a href="#">Products</a>
               <div class="mega-menu list-unstyled">
-          
-              <div className="container-fluid">
-      <div className="content">
-        {data.map((category, index) => (
-          <div className="mm-col" key={index}>
-            <h5 className="mm-title">{category.title}</h5>
-            <ul className="mm-list list-unstyled">
-              {category.items.map((item, itemIndex) => (
-                <li className="mm-list-item" key={itemIndex}>
-                  <a href="#" className="mm-item-link"></a>
-                  <div className="icon">
-                    <img src={item.icon} className="img-fluid" alt="icon" />
+                <div className="container-fluid">
+                  <div className="content">
+                    {data.map((category, index) => (
+                      <div className="mm-col" key={index}>
+                        <h5 className="mm-title">{category.title}</h5>
+                        <ul className="mm-list list-unstyled">
+                          {category.items.map((item, itemIndex) => (
+                            <li className="mm-list-item" key={itemIndex}>
+                              <a href="#" className="mm-item-link"></a>
+                              <div className="icon">
+                                <img src={item.icon} className ="img-fluid" alt="icon" />
+                              </div>
+                              <div className="info">
+                                <div className="name">{item.name}</div>
+                                <p className="text" dangerouslySetInnerHTML={{ __html: item.description }}></p>
+                              </div>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
                   </div>
-                  <div className="info">
-                    <div className="name">{item.name}</div>
-                    <p className="text" dangerouslySetInnerHTML={{ __html: item.description }}></p>
-                  </div>
-                </li>
-              ))}
-            </ul> </div>
-        ))}
-      </div>
-    </div>
-          </div>
+                </div>
+              </div>
             </div>
             <div class="link">
               <a href="#">Windows VPS Hosting</a>

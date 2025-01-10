@@ -8,7 +8,7 @@ import checked2 from "../assets/images/icons/checked-2.png"
 
 const providers = [
   {
-    name: 'HostGate',
+    name: 'Evrinocean',
     logo: logoHostGate, // Use imported path
     description: 'Emphasizes security, compliance, and global scalability.',
   },

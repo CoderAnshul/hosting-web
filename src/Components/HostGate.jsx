@@ -64,7 +64,7 @@ const HostGate = () => {
     <div class="container-fluid">
 
       <div class="se-title">
-        <h3 class="sub-title">HostGate Reviews</h3>
+        <h3 class="sub-title">Evrinocean Reviews</h3>
         <h2 class="title">Trusted by 21+ million customers<br/>around the world.</h2>
       </div>
 
@@ -80,7 +80,7 @@ const HostGate = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="20" viewBox="0 0 18 18" fill="none"><path d="M18.0002 0H9.00537V18.0001H18.0002V0Z" fill="#DCDCE6"></path><path d="M9.00524 0H0V18.0001H9.00524V0Z" fill="#00B67B"></path><path d="M9.00575 12.1358L11.7397 11.4366L12.8771 14.9636L9.00575 12.1358ZM15.2666 7.57576H10.4771L9.00575 3.03662L7.56575 7.56533H2.70312L6.60575 10.3723L5.12401 14.8697L9.01619 12.0627L11.4162 10.3306L15.298 7.56533L15.2666 7.57576Z" fill="#fff"></path></svg>
           </div>
  
-          <p class="text hdkasdh mb-3">HostGate is truly an efficient service. I moved my two domains over to HostGate to enhance security of my websites, and HostGate has kept its promise to protect my domains. When I call, the representatives are friendly and knowledgable. I am a happy client.</p>
+          <p class="text hdkasdh mb-3">Evrinocean is truly an efficient service. I moved my two domains over to Evrinocean to enhance security of my websites, and Evrinocean has kept its promise to protect my domains. When I call, the representatives are friendly and knowledgable. I am a happy client.</p>
 
           <div class="c-info d-flex align-items-center mt-auto">
  
@@ -105,7 +105,7 @@ const HostGate = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="20" viewBox="0 0 18 18" fill="none"><path d="M18.0002 0H9.00537V18.0001H18.0002V0Z" fill="#DCDCE6"></path><path d="M9.00524 0H0V18.0001H9.00524V0Z" fill="#00B67B"></path><path d="M9.00575 12.1358L11.7397 11.4366L12.8771 14.9636L9.00575 12.1358ZM15.2666 7.57576H10.4771L9.00575 3.03662L7.56575 7.56533H2.70312L6.60575 10.3723L5.12401 14.8697L9.01619 12.0627L11.4162 10.3306L15.298 7.56533L15.2666 7.57576Z" fill="#fff"></path></svg>
           </div>
 
-          <p class="text hdkasdh mb-3">I have been a HostGate customer for years! Whenever I have needed customer service, I have had the best experience and always learn something new. HostGate is a one-stop shop for all my domain, email, website, tech service needs. 24/7 great support! Thank you HostGate!</p>
+          <p class="text hdkasdh mb-3">I have been a Evrinocean customer for years! Whenever I have needed customer service, I have had the best experience and always learn something new. Evrinocean is a one-stop shop for all my domain, email, website, tech service needs. 24/7 great support! Thank you Evrinocean!</p>
 
           <div class="c-info d-flex align-items-center mt-auto">
 
@@ -130,7 +130,7 @@ const HostGate = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="20" viewBox="0 0 18 18" fill="none"><path d="M18.0002 0H9.00537V18.0001H18.0002V0Z" fill="#00B67B"></path><path d="M9.00524 0H0V18.0001H9.00524V0Z" fill="#00B67B"></path><path d="M9.00575 12.1358L11.7397 11.4366L12.8771 14.9636L9.00575 12.1358ZM15.2666 7.57576H10.4771L9.00575 3.03662L7.56575 7.56533H2.70312L6.60575 10.3723L5.12401 14.8697L9.01619 12.0627L11.4162 10.3306L15.298 7.56533L15.2666 7.57576Z" fill="#fff"></path></svg>
           </div>
 
-          <p class="text hdkasdh mb-3">HostGate has all the resources in one place to make running as a small business easy. I have my domain and website set up though them, my business phone, and my business email. All of these things build credibility with my clients. The process to set these things was very easy and seamless.</p>
+          <p class="text hdkasdh mb-3">Evrinocean has all the resources in one place to make running as a small business easy. I have my domain and website set up though them, my business phone, and my business email. All of these things build credibility with my clients. The process to set these things was very easy and seamless.</p>
 
           <div class="c-info d-flex align-items-center mt-auto">
   
@@ -155,7 +155,7 @@ const HostGate = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="20" viewBox="0 0 18 18" fill="none"><path d="M18.0002 0H9.00537V18.0001H18.0002V0Z" fill="#DCDCE6"></path><path d="M9.00524 0H0V18.0001H9.00524V0Z" fill="#00B67B"></path><path d="M9.00575 12.1358L11.7397 11.4366L12.8771 14.9636L9.00575 12.1358ZM15.2666 7.57576H10.4771L9.00575 3.03662L7.56575 7.56533H2.70312L6.60575 10.3723L5.12401 14.8697L9.01619 12.0627L11.4162 10.3306L15.298 7.56533L15.2666 7.57576Z" fill="#fff"></path></svg>
           </div>
 
-          <p class="text hdkasdh mb-3">HostGate is truly an efficient service. I moved my two domains over to HostGate to enhance security of my websites, and HostGate has kept its promise to protect my domains. When I call, the representatives are friendly and knowledgable. I am a happy client.</p>
+          <p class="text hdkasdh mb-3">Evrinocean is truly an efficient service. I moved my two domains over to HostGEvrinoceanate to enhance security of my websites, and Evrinocean has kept its promise to protect my domains. When I call, the representatives are friendly and knowledgable. I am a happy client.</p>
 
           <div class="c-info d-flex align-items-center mt-auto">
    
@@ -180,7 +180,7 @@ const HostGate = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="20" viewBox="0 0 18 18" fill="none"><path d="M18.0002 0H9.00537V18.0001H18.0002V0Z" fill="#DCDCE6"></path><path d="M9.00524 0H0V18.0001H9.00524V0Z" fill="#00B67B"></path><path d="M9.00575 12.1358L11.7397 11.4366L12.8771 14.9636L9.00575 12.1358ZM15.2666 7.57576H10.4771L9.00575 3.03662L7.56575 7.56533H2.70312L6.60575 10.3723L5.12401 14.8697L9.01619 12.0627L11.4162 10.3306L15.298 7.56533L15.2666 7.57576Z" fill="#fff"></path></svg>
           </div>
 
-          <p class="text hdkasdh mb-3">I have been a HostGate customer for years! Whenever I have needed customer service, I have had the best experience and always learn something new. HostGate is a one-stop shop for all my domain, email, website, tech service needs. 24/7 great support! Thank you HostGate!</p>
+          <p class="text hdkasdh mb-3">I have been a Evrinocean customer for years! Whenever I have needed customer service, I have had the best experience and always learn something new. Evrinocean is a one-stop shop for all my domain, email, website, tech service needs. 24/7 great support! Thank you Evrinocean!</p>
 
           <div class="c-info d-flex align-items-center mt-auto">
  
@@ -205,7 +205,7 @@ const HostGate = () => {
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="20" viewBox="0 0 18 18" fill="none"><path d="M18.0002 0H9.00537V18.0001H18.0002V0Z" fill="#00B67B"></path><path d="M9.00524 0H0V18.0001H9.00524V0Z" fill="#00B67B"></path><path d="M9.00575 12.1358L11.7397 11.4366L12.8771 14.9636L9.00575 12.1358ZM15.2666 7.57576H10.4771L9.00575 3.03662L7.56575 7.56533H2.70312L6.60575 10.3723L5.12401 14.8697L9.01619 12.0627L11.4162 10.3306L15.298 7.56533L15.2666 7.57576Z" fill="#fff"></path></svg>
           </div>
 
-          <p class="text hdkasdh mb-3">HostGate has all the resources in one place to make running as a small business easy. I have my domain and website set up though them, my business phone, and my business email. All of these things build credibility with my clients. The process to set these things was very easy and seamless.</p>
+          <p class="text hdkasdh mb-3">Evrinocean has all the resources in one place to make running as a small business easy. I have my domain and website set up though them, my business phone, and my business email. All of these things build credibility with my clients. The process to set these things was very easy and seamless.</p>
 
           <div class="c-info d-flex align-items-center mt-auto">
   

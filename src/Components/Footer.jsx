@@ -53,7 +53,7 @@ const Footer = () => {
           
                 <div class="box-text">
              
-                  <h4 class="box-title">HostGate Sales Help</h4>
+                  <h4 class="box-title">Evrinocean Sales Help</h4>
               
                   <p class="box-para">24/7/365 Through the Chat Widget</p>
                 </div>
@@ -105,7 +105,7 @@ const Footer = () => {
         <div class="list-group">
 
           <ul class="footer-list list-unstyled">
-            <li class="list-title">About HostGate</li>
+            <li class="list-title">About Evrinocean</li>
             <li class="list-link"><a href="#">About Us</a></li>
             <li class="list-link"><a href="#">Newsroom</a></li>
             <li class="list-link"><a href="#">Investor Relations</a></li>
@@ -118,7 +118,7 @@ const Footer = () => {
           <ul class="footer-list list-unstyled">
             <li class="list-title">Help Center</li>
             <li class="list-link"><a href="#">Community</a></li>
-            <li class="list-link"><a href="#">HostGate Blog</a></li>
+            <li class="list-link"><a href="#">Evrinocean Blog</a></li>
             <li class="list-link"><a href="contact.php">Contact Us</a></li>
             <li class="list-link"><a href="abuse.php">Report Abuse</a></li>
             <li class="list-link"><a href="#">Resources</a></li>
@@ -128,7 +128,7 @@ const Footer = () => {
             <li class="list-title">Resources</li>
             <li class="list-link"><a href="#">Webmail</a></li>
             <li class="list-link"><a href="#">WHOIS</a></li>
-            <li class="list-link"><a href="#">HostGate Mobile App</a></li>
+            <li class="list-link"><a href="#">Evrinocean Mobile App</a></li>
             <li class="list-link"><a href="#">ICANN Confirmation</a></li>
             <li class="list-link"><a href="#">Designers &amp; Developers</a></li>
             <li class="list-link"><a href="#">Corporate Domains</a></li>
@@ -139,7 +139,7 @@ const Footer = () => {
             <li class="list-title">Partner Programs</li>
             <li class="list-link"><a href="#">Affiliates</a></li>
             <li class="list-link"><a href="#">Reseller Programs</a></li>
-            <li class="list-link"><a href="#">HostGate Pro</a></li>
+            <li class="list-link"><a href="#">Evrinocean Pro</a></li>
           </ul>
 
           <ul class="footer-list list-unstyled">
@@ -168,9 +168,10 @@ const Footer = () => {
 
           <div class="content d-flex align-items-start mb-2">
        
-            <div class="logo mb-lg-0 mb-1 mr-2">
-              <a href="#">
-                <img src={whiteLogo} class="img-fluid" alt="HostGate"/>
+            <div  class="logo mb-lg-0 mb-1 mr-2">
+              <a style={{color:'white', fontSize:'24px' }} href="#">
+                {/* <img src={whiteLogo} class="img-fluid" alt="Evrinocean"/> */}
+                Evrinocean
               </a>
             </div>
 
@@ -183,7 +184,7 @@ const Footer = () => {
                 <li><a href="/terms">License Agreements</a></li>
               </ul>
 
-              <p class="para-3">Copyright © <span id="year"></span>, HostGate Operating Company, LLC. All Rights Reserved. The HostGate word mark is a registered trademark of HostGate Operating Company,</p>
+              <p class="para-3">Copyright © <span id="year"></span>, Evrinocean Operating Company, LLC. All Rights Reserved. The Evrinocean word mark is a registered trademark of Evrinocean Operating Company,</p>
             </div>
       
             <ul class="social-list list-unstyled d-flex align-items-center justify-content-lg-end justify-content-center ml-lg-auto mt-lg-0 mt-2">

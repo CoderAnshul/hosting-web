@@ -5,12 +5,12 @@ const plans = [
   {
     title: "Tools To Grow",
     description:
-      "Whether you start small or migrate an existing website, HostGate provides all the tools you need to build an audience, sell online, or grow your business.",
+      "Whether you start small or migrate an existing website, HostGEvrinoceanate provides all the tools you need to build an audience, sell online, or grow your business.",
   },
   {
     title: "Domain Manager",
     description:
-      "At HostGate plans our domain manager makes it easy to update, transfer, purchase and manage your domains in one place.",
+      "At Evrinocean plans our domain manager makes it easy to update, transfer, purchase and manage your domains in one place.",
   },
   {
     title: "SSL Certificates",
@@ -20,7 +20,7 @@ const plans = [
   {
     title: "Reliable Performance",
     description:
-      "All HostGate plans are designed for WordPress excellence. Each plan includes the right mix of technology.",
+      "All Evrinocean plans are designed for WordPress excellence. Each plan includes the right mix of technology.",
   },
   {
     title: "Google My Business",
@@ -30,7 +30,7 @@ const plans = [
   {
     title: "24/7 security monitoring & DDoS",
     description:
-      "At HostGate plans we aim to stay on high alert day and night with security monitoring and distributed denial of service protection.",
+      "At Evrinocean plans we aim to stay on high alert day and night with security monitoring and distributed denial of service protection.",
   },
 ];
 

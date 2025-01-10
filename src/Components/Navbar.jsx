@@ -168,8 +168,9 @@ const Navbar = () => {
           <div class="menu-icon" id="open-links-btn" onClick={handleMenuIconClick}>
             <img src={menu} class="menu-icon img-fluid" alt="Menu" />
           </div>
-          <a href="/" class="brand d-flex align-items-center">
-            <img src={logoblack} class="img-fluid" alt="HostGate" />
+          <a href="/" style={{color:'black' , fontSize:'24px' , fontWeight:'600'}} class="brand d-flex align-items-center">
+            {/* <img src={logoblack} class="img-fluid" alt="HostGate" /> */}
+            Evrinocean
           </a>
           <div class="options d-md-flex d-none align-items-center justify-content-end" style={{ width: '100%', justifyContent: "flex-end" }}>
             <a href="domains.php" class="c-link">
@@ -198,7 +199,7 @@ const Navbar = () => {
                 </li>
                 <li class="uddm-link-parent">
                   <div class="title-2">New Customer</div>
-                  <p class="para-2">New to HostGate? Create an account to get started today.</p>
+                  <p class="para-2">New to Evrinocean? Create an account to get started today.</p>
                   <a href="register.php" class="uddm-link">Create an account</a>
                 </li>
               </ul>

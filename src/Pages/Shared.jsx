@@ -27,7 +27,8 @@ const items = [
     {
         icon: browser,
         title: "1.5 Million Websites Choose Evrinocean",
-        Evrinocean    },
+        description: "Join 1.5 million websites that trust Evrinocean for their hosting needs.",
+    },
     {
         icon: money,
         title: "Zero-Risk, 97-Day Money-Back Guarantee",

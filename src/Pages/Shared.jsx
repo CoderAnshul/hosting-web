@@ -26,9 +26,8 @@ const items = [
     },
     {
         icon: browser,
-        title: "1.5 Million Websites Choose HostGate",
-        description: "Join 1.5 million websites that trust HostGate for their hosting needs.",
-    },
+        title: "1.5 Million Websites Choose Evrinocean",
+        Evrinocean    },
     {
         icon: money,
         title: "Zero-Risk, 97-Day Money-Back Guarantee",
